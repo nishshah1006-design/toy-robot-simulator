@@ -78,10 +78,19 @@ on stderr (`Ignored: ...`), so a typo never crashes a run.
 
 ## Running the tests
 
+Set up a virtual environment first so dependencies stay isolated to this
+project rather than installed globally:
+
 ```bash
+python3 -m venv .venv
+.venv\Scripts\activate      # Windows
+# source .venv/bin/activate  # macOS/Linux
+
 pip install -r requirements-dev.txt
 python3 -m pytest --cov=robot_simulator --cov-report=term-missing
 ```
+
+`.venv/` is git-ignored, so it's local to your machine and never committed.
 
 78 tests, ~99% statement coverage, including:
 - Unit tests per class (`Direction`, `Table`, `Robot`, command parsing).

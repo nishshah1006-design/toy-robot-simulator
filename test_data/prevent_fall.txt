@@ -1,0 +1,13 @@
+# Robot must ignore any MOVE that would take it off the table.
+PLACE 0,0,SOUTH
+MOVE
+REPORT
+PLACE 0,0,WEST
+MOVE
+REPORT
+PLACE 4,4,NORTH
+MOVE
+REPORT
+PLACE 4,4,EAST
+MOVE
+REPORT

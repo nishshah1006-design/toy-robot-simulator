@@ -1,0 +1,6 @@
+# Commands issued before a valid PLACE must be discarded.
+MOVE
+LEFT
+REPORT
+PLACE 3,3,SOUTH
+REPORT

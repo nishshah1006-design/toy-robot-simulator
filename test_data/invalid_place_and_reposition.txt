@@ -1,0 +1,11 @@
+# An out-of-bounds PLACE must be ignored (robot stays unplaced).
+PLACE 10,10,NORTH
+REPORT
+# Now place validly, move around, then PLACE again mid-sequence.
+PLACE 0,0,NORTH
+MOVE
+MOVE
+REPORT
+PLACE 2,2,WEST
+LEFT
+REPORT

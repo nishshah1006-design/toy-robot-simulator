@@ -83,7 +83,7 @@
 
   <!-- ===== Inset: fall-prevention gate ===== -->
   <rect class="frame" x="680" y="480" width="480" height="220"/>
-  <text class="eyebrow-svg" x="700" y="500">Inside Robot &mdash; the fall-prevention gate</text>
+  <text class="eyebrow-svg" x="700" y="500">Inside Robot &#8212; the fall-prevention gate</text>
 
   <rect class="box" x="700" y="540" width="120" height="50"/>
   <text class="mono lbl" x="712" y="561" text-anchor="start">PLACE(x,y,f)</text>
@@ -104,10 +104,10 @@
   <line class="flow-rej" x1="905" y1="600" x2="905" y2="618"/>
   <text class="mono lbl-muted" x="915" y="613">no</text>
   <rect class="box" x="800" y="618" width="340" height="46"/>
-  <text class="sub" x="812" y="637">previous state kept &mdash;</text>
+  <text class="sub" x="812" y="637">previous state kept &#8212;</text>
   <text class="sub" x="812" y="652">nothing printed</text>
 
-  <text class="lbl-muted" x="700" y="690">LEFT / RIGHT skip this gate (Direction.left()/right() always succeeds) &middot; REPORT only reads state, never writes it</text>
+  <text class="lbl-muted" x="700" y="690">LEFT / RIGHT skip this gate (Direction.left()/right() always succeeds) &#183; REPORT only reads state, never writes it</text>
 
   <!-- ===== Legend ===== -->
   <line class="flow" x1="20" y1="705" x2="60" y2="705"/>
